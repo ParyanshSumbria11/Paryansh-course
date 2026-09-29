@@ -11,7 +11,6 @@ protected:
 public:
     Person(string n = "", int a = 0) : name(n), age(a) {}
 };
-
 class Teacher : public Person {
 private:
     string subject;
